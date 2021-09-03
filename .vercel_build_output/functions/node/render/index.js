@@ -2645,9 +2645,9 @@ function init(settings = default_settings) {
     amp: false,
     dev: false,
     entry: {
-      file: assets + "/_app/start-5da37eaf.js",
-      css: [assets + "/_app/assets/start-61d1577b.css"],
-      js: [assets + "/_app/start-5da37eaf.js", assets + "/_app/chunks/vendor-b0f32732.js"]
+      file: assets + "/_app/start-e89a7584.js",
+      css: [assets + "/_app/assets/start-d5b4de3e.css"],
+      js: [assets + "/_app/start-e89a7584.js", assets + "/_app/chunks/vendor-b0f32732.js"]
     },
     fetched: void 0,
     floc: false,
@@ -2753,7 +2753,7 @@ var module_lookup = {
     return index;
   })
 };
-var metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-6fc14754.js", "css": ["assets/pages/__layout.svelte-3b6ee0ed.css"], "js": ["pages/__layout.svelte-6fc14754.js", "chunks/vendor-b0f32732.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-827fa33a.js", "css": [], "js": ["error.svelte-827fa33a.js", "chunks/vendor-b0f32732.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "pages/index.svelte-e8eb96e5.js", "css": [], "js": ["pages/index.svelte-e8eb96e5.js", "chunks/vendor-b0f32732.js"], "styles": [] }, "src/routes/confitures.svelte": { "entry": "pages/confitures.svelte-e6137dc1.js", "css": [], "js": ["pages/confitures.svelte-e6137dc1.js", "chunks/vendor-b0f32732.js"], "styles": [] }, "src/routes/about.svelte": { "entry": "pages/about.svelte-38a15707.js", "css": [], "js": ["pages/about.svelte-38a15707.js", "chunks/vendor-b0f32732.js"], "styles": [] }, "src/routes/todos/index.svelte": { "entry": "pages/todos/index.svelte-7d3075bb.js", "css": ["assets/pages/todos/index.svelte-784042c1.css"], "js": ["pages/todos/index.svelte-7d3075bb.js", "chunks/vendor-b0f32732.js"], "styles": [] } };
+var metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-8dbf2093.js", "css": ["assets/pages/__layout.svelte-0432614b.css"], "js": ["pages/__layout.svelte-8dbf2093.js", "chunks/vendor-b0f32732.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-827fa33a.js", "css": [], "js": ["error.svelte-827fa33a.js", "chunks/vendor-b0f32732.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "pages/index.svelte-e8eb96e5.js", "css": [], "js": ["pages/index.svelte-e8eb96e5.js", "chunks/vendor-b0f32732.js"], "styles": [] }, "src/routes/confitures.svelte": { "entry": "pages/confitures.svelte-e6137dc1.js", "css": [], "js": ["pages/confitures.svelte-e6137dc1.js", "chunks/vendor-b0f32732.js"], "styles": [] }, "src/routes/about.svelte": { "entry": "pages/about.svelte-38a15707.js", "css": [], "js": ["pages/about.svelte-38a15707.js", "chunks/vendor-b0f32732.js"], "styles": [] }, "src/routes/todos/index.svelte": { "entry": "pages/todos/index.svelte-7d3075bb.js", "css": ["assets/pages/todos/index.svelte-784042c1.css"], "js": ["pages/todos/index.svelte-7d3075bb.js", "chunks/vendor-b0f32732.js"], "styles": [] } };
 async function load_component(file) {
   const { entry, css: css2, js, styles } = metadata_lookup[file];
   return {
@@ -2836,7 +2836,7 @@ var Header = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 var Nav = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `<div><a class="${"inline-flex px-6 py-3 border border-gray-500 bg-gradient-to-b from-yellow-400 to-gray-100 rounded-full"}" href="${"/confitures"}">confitures</a>
     <a class="${"inline-flex px-6 py-3 border border-gray-500 bg-gradient-to-b from-yellow-400 to-gray-100 rounded-full"}" href="${"/"}">fruits en bocaux</a>
-    <a class="${"inline-flex px-6 py-3 border border-gray-500 bg-gradient-to-b from-yellow-400 to-gray-100 rounded-full"}" href="${"/"}">sucettes</a>
+    <a class="${"inline-flex px-6 py-3 border border-gray-500 bg-gradient-to-b from-red-800 to-gray-100 rounded-full"}" href="${"/"}">sucettes</a>
     <a class="${"inline-flex px-6 py-3 border border-gray-500 bg-gradient-to-b from-yellow-400 to-gray-100 rounded-full"}" href="${"/"}">...</a></div>`;
 });
 var _layout = create_ssr_component(($$result, $$props, $$bindings, slots) => {
