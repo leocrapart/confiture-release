@@ -9,13 +9,13 @@
         class="inline-flex px-6 py-3 border border-gray-500
         bg-gradient-to-b from-yellow-400 to-gray-100
         rounded-full"
-        href="/bocaux">fruits en bocaux</a
+        href="/">fruits en bocaux</a
     >
     <a
         class="inline-flex px-6 py-3 border border-gray-500
         bg-gradient-to-b from-yellow-400 to-gray-100
         rounded-full"
-        href="/mega/sucettes">sucettes</a
+        href="/">sucettes</a
     >
     <a
         class="inline-flex px-6 py-3 border border-gray-500

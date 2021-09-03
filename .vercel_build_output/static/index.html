@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" href="/favicon.png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<title>Home</title>
+
+		
+
+		<link rel="modulepreload" href="/_app/start-5da37eaf.js">
+		<link rel="modulepreload" href="/_app/chunks/vendor-b0f32732.js">
+		<link rel="modulepreload" href="/_app/pages/__layout.svelte-6fc14754.js">
+		<link rel="modulepreload" href="/_app/pages/index.svelte-e8eb96e5.js">
+		<link rel="stylesheet" href="/_app/assets/start-61d1577b.css">
+		<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-3b6ee0ed.css">
+
+		<script type="module">
+			import { start } from "/_app/start-5da37eaf.js";
+			start({
+				target: document.querySelector("#svelte"),
+				paths: {"base":"","assets":""},
+				session: {},
+				host: location.host,
+				route: true,
+				spa: false,
+				trailing_slash: "never",
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/_app/pages/__layout.svelte-6fc14754.js"),
+						import("/_app/pages/index.svelte-e8eb96e5.js")
+					],
+					page: {
+						host: location.host, // TODO this is redundant
+						path: "/",
+						query: new URLSearchParams(""),
+						params: {}
+					}
+				}
+			});
+		</script>
+</head>
+
+<body>
+	<div id="svelte">
+
+
+<div class="flex py-2 bg-gray-900 justify-center uppercase text-gray-100">Les confitures de valerie
+</div>
+<div><a class="inline-flex px-6 py-3 border border-gray-500 bg-gradient-to-b from-yellow-400 to-gray-100 rounded-full" href="/confitures">confitures</a>
+    <a class="inline-flex px-6 py-3 border border-gray-500 bg-gradient-to-b from-yellow-400 to-gray-100 rounded-full" href="/">fruits en bocaux</a>
+    <a class="inline-flex px-6 py-3 border border-gray-500 bg-gradient-to-b from-yellow-400 to-gray-100 rounded-full" href="/">sucettes</a>
+    <a class="inline-flex px-6 py-3 border border-gray-500 bg-gradient-to-b from-yellow-400 to-gray-100 rounded-full" href="/">...</a></div>
+
+<main>
+
+<div><div class="pt-48 px-12"><div class="flex pl-3">a la une :</div>
+		<div class="flex mt-4"><div class="flex flex-wrap max-w-md"><div class="w-48 h-48 m-4 border border-gray-500 rounded"></div>
+				<div class="w-48 h-48 m-4 border border-gray-500 rounded"></div>
+				<div class="w-48 h-48 m-4 border border-gray-500 rounded"></div>
+				<div class="w-48 h-48 m-4 border border-gray-500 rounded"></div></div>
+			<div class="pl-80 self-end italic text-sm"><div class="pr-28 pl-1 border border-gray-500 rounded"><div>contact</div>
+					<div class="pt-3"><div>mail:</div>
+						<div>instagram</div>
+						<div>facebook...</div></div></div></div></div></div></div></main>
+
+
+
+			
+		</div>
+</body>
+
+</html>
